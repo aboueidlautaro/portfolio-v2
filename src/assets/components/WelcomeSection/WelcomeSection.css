@@ -1,0 +1,59 @@
+.welcome-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: "Viga", sans-serif;
+  user-select: none;
+}
+
+.welcome-text-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.welcome-text-container {
+  font-size: 60px;
+  font-weight: bold;
+}
+.welcome-text-top {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.welcome-text-middle {
+  font-size: 38px;
+}
+
+.welcome-spline-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.spline-container {
+  width: 80%;
+  height: 80%;
+}
+img {
+  padding: 0 8px;
+  height: 80px;
+  width: auto;
+}
+
+#title-stack {
+  font-weight: 900;
+  font-size: 72px;
+  background: #23c4cf;
+  background: -webkit-linear-gradient(to right, #23c4cf 13%, #a004cf 93%);
+  background: -moz-linear-gradient(to right, #23c4cf 13%, #a004cf 93%);
+  background: linear-gradient(to right, #23c4cf 13%, #a004cf 93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
