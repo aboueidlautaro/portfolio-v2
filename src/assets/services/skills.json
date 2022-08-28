@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "title": "HTML",
+      "logo": "https://img.icons8.com/color/344/html-5--v1.png"
+    },
+    {
+      "id": "2",
+      "title": "CSS",
+      "logo": "https://img.icons8.com/color/344/css3.png"
+    },
+    {
+      "id": "3",
+      "title": "JavaScript",
+      "logo": "https://img.icons8.com/color/344/javascript--v1.png"
+    },
+    {
+      "id": "4",
+      "title": "React",
+      "logo": "https://img.icons8.com/plasticine/344/react.png"
+    },
+    {
+      "id": "5",
+      "title": "Node.js",
+      "logo": "https://img.icons8.com/fluency/344/node-js.png"
+    },
+    {
+      "id": "6",
+      "title": "Express",
+      "logo": "https://img.icons8.com/fluency/344/express-js.png"
+    },
+
+    {
+      "id": "8",
+      "title": "MySQL",
+      "logo": "https://img.icons8.com/color/344/mysql-logo.png"
+    },
+    {
+      "id": "11",
+      "title": "Bootstrap",
+      "logo": "https://img.icons8.com/color/344/bootstrap.png"
+    },
+    {
+      "id": "13",
+      "title": "jQuery",
+      "logo": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png"
+    },
+    {
+      "id": "14",
+      "title": "Api REST",
+      "logo": "https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-api-no-code-flaticons-flat-flat-icons.png"
+    },
+    {
+      "id": "15",
+      "title": "Auth0",
+      "logo": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-auth0-the-solution-you-need-for-web-mobile-iot-and-internal-applications-logo-shadow-tal-revivo.png"
+    },
+    {
+      "id": "16",
+      "title": "Angular",
+      "logo": "https://img.icons8.com/color/344/angularjs.png"
+    },
+    {
+      "id": "17",
+      "title": "PHP",
+      "logo": "https://img.icons8.com/officel/344/php-logo.png"
+    },
+    {
+      "id": "18",
+      "title": "Sass",
+      "logo": "https://img.icons8.com/color/344/sass.png"
+    },
+    {
+      "id": "19",
+      "title": "JSON",
+      "logo": "https://img.icons8.com/color/344/json--v1.png"
+    },
+    {
+      "id": "20",
+      "title": "Django",
+      "logo": "https://img.icons8.com/color/344/django.png"
+    },
+    {
+      "id": "21",
+      "title": "Tailwind CSS",
+      "logo": "https://img.icons8.com/color/344/tailwind_css.png"
+    },
+    {
+      "id": "22",
+      "title": "Git",
+      "logo": "https://img.icons8.com/color/344/git.png"
+    },
+    {
+      "id": "23",
+      "title": "Firebase",
+      "logo": "https://img.icons8.com/color/344/firebase.png"
+    }
+  ]
+}

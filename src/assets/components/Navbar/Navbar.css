@@ -29,7 +29,7 @@ header {
 .btnContact {
   font-weight: 600;
   color: black;
-  background-color: white;
+  background-color: #edeae5;
   padding: 7px 14px;
   border-radius: 3px;
   border: 2px solid transparent;
@@ -38,6 +38,6 @@ header {
 .btnContact:hover {
   transition: all 0.3s ease-in-out;
   background-color: transparent;
-  color: white;
-  border: 2px solid white;
+  color: #edeae5;
+  border: 2px solid #edeae5;
 }

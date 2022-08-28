@@ -71,9 +71,9 @@
   border-radius: 10px;
   font-size: 18px;
 
-  border: 2px solid white;
+  border: 2px solid #edeae5;
   background-color: transparent;
-  color: white;
+  color: #edeae5;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -81,7 +81,7 @@
 #btnHireMe:hover {
   color: #212121;
   font-weight: bold;
-  background-color: white;
+  background-color: #edeae5;
   transition: all 0.3s ease-in-out;
 }
 
@@ -89,16 +89,16 @@
   padding: 12px 20px;
   border-radius: 10px;
   font-size: 18px;
-  border: 2px solid white;
+  border: 2px solid #edeae5;
   cursor: pointer;
   color: #212121;
   font-weight: bold;
-  background-color: white;
+  background-color: #edeae5;
   transition: all 0.3s ease-in-out;
 }
 #btnCV:hover {
   background-color: transparent;
-  color: white;
+  color: #edeae5;
   transition: all 0.3s ease-in-out;
 }
 
