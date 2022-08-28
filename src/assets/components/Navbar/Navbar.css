@@ -7,6 +7,7 @@ header {
   height: auto;
   display: flex;
   justify-content: center;
+  z-index: 10000;
 }
 
 .header-container {
@@ -31,4 +32,12 @@ header {
   background-color: white;
   padding: 7px 14px;
   border-radius: 3px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.btnContact:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
 }

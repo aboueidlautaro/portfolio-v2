@@ -2,6 +2,7 @@ import React from "react";
 import AnimatedMouse from "../AnimatedMouse/AnimatedMouse";
 import SplineCake from "../SplineCake/SplineCake";
 import "./WelcomeSection.css";
+import curriculum from "../../static/Curriculum-Aboueid-Lautaro.pdf";
 
 function WelcomeSection() {
   return (
@@ -19,6 +20,17 @@ function WelcomeSection() {
           <div className="welcome-text-middle">
             <h1>I'm Lautaro Aboueid, </h1>
             <h2 id="title-stack">Web Developer</h2>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/aboueidlautaro/"
+              id="btnHireMe"
+            >
+              Hire me
+            </a>
+            <a download href={curriculum} id="btnCV">
+              CV
+            </a>
           </div>
         </article>
 

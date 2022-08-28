@@ -11,7 +11,7 @@ function Navbar() {
           <img src={logo} alt="" />
         </Link>
         <Link to="/contact">
-          <span className="btnContact">Contacto</span>
+          <span className="btnContact">Contact</span>
         </Link>
       </div>
     </header>

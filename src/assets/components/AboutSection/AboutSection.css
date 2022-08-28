@@ -4,4 +4,37 @@
 }
 .aboutme-container-info {
   padding-top: 80px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-container-info div img {
+  width: 200px;
+  height: 200px;
+}
+.emoji-info {
+  height: 30%;
+}
+.text-info {
+  height: 30%;
+  width: 60%;
+  text-align: center;
+}
+.text-info h2 {
+  word-wrap: break-word;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+
+@media (max-width: 1024px) {
+  .text-info {
+    min-height: 30%;
+    height: auto;
+    width: 90%;
+  }
 }

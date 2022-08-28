@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AboutSection from "../components/AboutSection/AboutSection";
 import Navbar from "../components/Navbar/Navbar";
+import ProjectsSection from "../components/ProjectsSection/ProjectsSection";
 import WelcomeSection from "../components/WelcomeSection/WelcomeSection";
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
         <WelcomeSection />
         {coordScroll >= cordSectionCalc ? <Navbar /> : null}
         <AboutSection id="second-section" />
+        <ProjectsSection />
       </div>
     </>
   );

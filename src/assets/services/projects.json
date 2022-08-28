@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "title": "Drinks eCommerce",
+      "image": "https://cdn.discordapp.com/attachments/885963741676584981/1013371787989495828/ecommerce-dizeid-drinks.png",
+      "description": "A simple eCommerce platform for drinks",
+      "url": "https://dizeid-drinks.store/",
+      "github": ""
+    },
+    {
+      "id": "2",
+      "title": "Simply blog",
+      "image": "https://cdn.discordapp.com/attachments/885963741676584981/1001119604418027520/unknown.png",
+      "description": "A platform where you can write and share your thoughts",
+      "url": "https://blog-jwt.netlify.app/",
+      "github": "https://github.com/aboueidlautaro/blog_front"
+    },
+    {
+      "id": "3",
+      "title": "Rick & Morty Wiki",
+      "image": "https://cdn.discordapp.com/attachments/885963741676584981/1013371787574251600/catalogo-rick-morty.png",
+      "description": "A platform where you can search for information about Rick and Morty characters",
+      "url": "https://react-fb-3367b.web.app/",
+      "github": ""
+    },
+    {
+      "id": "4",
+      "title": "Accounting advice page",
+      "image": "https://cdn.discordapp.com/attachments/885963741676584981/1013371788434096128/pg-ucmd.png",
+      "description": "A platform where you can calculate your monotribute categories and get assistance with your taxes",
+      "url": "https://aboueidnahir.vercel.app/",
+      "github": "https://github.com/aboueidlautaro/pg-ucmd"
+    },
+    {
+      "id": "5",
+      "title": "Portfolio v1",
+      "image": "https://cdn.discordapp.com/attachments/885963741676584981/1013371788782211072/portfolio-v1.png",
+      "description": "A minimal portfolio website",
+      "url": "https://aboueidlautaro.vercel.app/",
+      "github": "https://github.com/aboueidlautaro/portafolioTrabajo"
+    },
+    {
+      "id": "6",
+      "title": "To Do List",
+      "image": "https://cdn.discordapp.com/attachments/885963741676584981/1013371789121962034/todo-list.png",
+      "description": "Platform to assign tasks to be done",
+      "url": "https://todolist-zavdev.vercel.app/",
+      "github": "https://github.com/aboueidlautaro/todolist"
+    },
+    {
+      "id": "7",
+      "title": "Zavod Games",
+      "image": "https://cdn.discordapp.com/attachments/885963741676584981/1013371789658824757/zavodgames.png",
+      "description": "A platform where you can search all games from all platforms with a simple intuitive interface",
+      "url": "https://zavodgames.vercel.app/",
+      "github": "https://github.com/aboueidlautaro/zavodgames"
+    }
+  ]
+}
