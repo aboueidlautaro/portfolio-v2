@@ -17,7 +17,7 @@
   background-size: 225%;
   animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
   bottom: 20px;
-  left: 50%;
+  left: calc(50% - 20px);
 }
 .mouse:before,
 .mouse:after {

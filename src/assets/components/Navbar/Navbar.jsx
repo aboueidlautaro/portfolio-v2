@@ -5,8 +5,8 @@ import logo from "../../static/images/logo.png";
 
 function Navbar() {
   return (
-    <header>
-      <div className="header-container">
+    <header id="blur" className="animate__animated animate__fadeInDown">
+      <div className="header-container ">
         <Link className="Logo" to="/">
           <img src={logo} alt="" />
         </Link>

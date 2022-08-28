@@ -1,9 +1,12 @@
 header {
-  display: none;
   width: 100%;
-
+  position: fixed;
+  top: 0;
+  left: 0;
   justify-content: center;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .header-container {
@@ -17,10 +20,11 @@ header {
   display: flex;
   align-items: center;
 }
-img {
-  width: 80px;
+.Logo img {
+  width: 100px;
   height: 100%;
 }
+
 .btnContact {
   font-weight: 600;
   color: black;

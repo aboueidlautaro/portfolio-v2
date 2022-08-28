@@ -7,7 +7,6 @@ import Home from "../pages/Home";
 function AppRoutes() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="contact" element={<Contact />} />

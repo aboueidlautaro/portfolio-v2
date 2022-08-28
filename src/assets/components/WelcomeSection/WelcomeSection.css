@@ -57,3 +57,27 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1024px) {
+  .welcome-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .welcome-text-container {
+    width: 100%;
+    height: auto;
+  }
+  .welcome-spline-container {
+    width: 100%;
+    height: 60%;
+  }
+  .welcome-text-container {
+    font-size: 40px;
+  }
+  .welcome-text-middle {
+    font-size: 24px;
+  }
+  #title-stack {
+    font-size: 48px;
+  }
+}
