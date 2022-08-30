@@ -21,6 +21,7 @@
   font-size: 9px;
   background-color: transparent;
   filter: brightness(40%);
+  border: none;
 }
 
 .skills-card:hover {

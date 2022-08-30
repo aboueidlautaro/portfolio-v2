@@ -10,7 +10,7 @@
 html {
   font-family: "Urbanist", sans-serif;
   scroll-behavior: smooth;
-  background-color: #010114;
+  background-color: #000000;
   color: #edeae5;
 }
 
@@ -22,4 +22,11 @@ a {
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+}
+#blur2 {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }

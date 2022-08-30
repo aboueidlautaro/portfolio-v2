@@ -13,23 +13,13 @@ function ProjectsSection() {
       <article className="projects-container-cards">
         {results.results.map((item) => {
           return (
-            <div className="card" key={item.id}>
-              <div className="card-image">
-                <img src={item.image} alt={item.title} />
-              </div>
-              <div className="card-content">
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-                <div className="card-content-links">
-                  <a href={item.github} target="_blank">
-                    <SiGithub size={28} />
-                  </a>
-                  <a href={item.url} target="_blank">
-                    <FiLink size={28} />
-                  </a>
+            <>
+              <div id="blur2" className="card" key={item.id}>
+                <div className="card-image">
+                  <img src={item.image} alt={item.title} />
                 </div>
               </div>
-            </div>
+            </>
           );
         })}
       </article>

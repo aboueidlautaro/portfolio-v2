@@ -17,6 +17,7 @@
   width: 560px;
   height: auto;
   border-radius: 8px;
+  background-color: #edeae5;
   transition: all 0.3s ease-in-out;
   color: #edeae5;
   text-align: center;
@@ -25,20 +26,25 @@
 .card .card-image {
   min-width: 280px;
   max-width: 560px;
-  height: auto;
+  min-height: 300px;
+  height: 300px;
   object-fit: cover;
   transition: all 0.3s ease-in-out;
 }
-.card .card-image:hover {
+.card:hover {
   transition: all 0.3s ease-in-out;
   transform: scale(1.048);
 }
 .card .card-image img {
   border-radius: 5px;
   width: 100%;
-  height: 285px;
+
+  height: 300px;
   object-fit: cover;
   overflow: hidden;
+}
+.card .card-content {
+  padding-bottom: 20px;
 }
 .card .card-content .card-content-links {
   display: flex;
@@ -58,7 +64,6 @@
   transition: all 0.3s ease-in-out;
 }
 .card-content h2,
-p,
-div {
+p {
   padding: 4px 0;
 }
