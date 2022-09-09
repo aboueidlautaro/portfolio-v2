@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.119.1/build/three.module.js";
+import * as THREE from "three";
 import { OrbitControls } from "@react-three/drei";
 import SplineCakeService from "./SplineCakeService";
 import "./SplineCake.css";
