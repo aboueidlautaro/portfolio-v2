@@ -12,7 +12,7 @@ import { useEffect } from "react";
 import works from "../../services/projects.json";
 
 function Works() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   const onHover = () => {
     document
@@ -59,6 +59,15 @@ function Works() {
                       </div>
                       <div className="swiper-card-description">
                         <p>{value.description}</p>
+
+                        <div className="swiper-card-buttons">
+                          <a href={value.url} target="_blank">
+                            <FiLink />
+                          </a>
+                          <a href={value.github}>
+                            <SiGithub />
+                          </a>
+                        </div>
                       </div>
                     </SwiperSlide>
                   );

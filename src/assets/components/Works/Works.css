@@ -17,7 +17,7 @@
   width: 60%;
   height: 600px;
   backdrop-filter: blur(80px);
-  -webkit-backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(100px);
   background-color: rgba(99, 99, 99, 0.048);
   border-radius: 12px;
 
@@ -138,4 +138,28 @@
   font-weight: 500;
   margin-bottom: 10px;
   text-align: center;
+  color: rgb(235, 232, 220);
+}
+.swiper-card-buttons {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+  align-items: center;
+  flex-direction: row;
+}
+.swiper-card-buttons a {
+  color: rgb(235, 232, 220);
+  transition: all 0.3s ease-in-out;
+}
+.swiper-card-buttons a:hover {
+  transform: scale(1.048);
+  backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(100px);
+  background-color: rgba(99, 99, 99, 0.048);
+  border-radius: 12px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
 }
