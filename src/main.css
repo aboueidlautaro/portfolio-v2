@@ -30,3 +30,7 @@ a {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
+.main-page-container {
+  height: auto;
+  padding-bottom: 40px;
+}

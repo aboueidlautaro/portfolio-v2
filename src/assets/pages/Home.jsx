@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import AboutSection from "../components/AboutSection/AboutSection";
 import Navbar from "../components/Navbar/Navbar";
-import ProjectsSection from "../components/ProjectsSection/ProjectsSection";
+import Works from "../components/Works/Works";
+
 import Skills from "../components/Skills/Skills";
 import WelcomeSection from "../components/WelcomeSection/WelcomeSection";
 
@@ -29,13 +30,11 @@ function Home() {
 
   return (
     <>
-      <div>
+      <div className="main-page-container">
         <WelcomeSection />
         {coordScroll >= cordSectionCalc ? <Navbar /> : null}
         <AboutSection id="second-section" />
-        {isClicked ? <h2>True</h2> : <h2>false</h2>}
-        <button onClick={onClickShow}>asd</button>
-        <ProjectsSection />
+        <Works />
         <Skills />
       </div>
     </>
