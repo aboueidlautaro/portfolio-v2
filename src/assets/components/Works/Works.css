@@ -82,18 +82,13 @@
   }
 }
 
-.card-content .mySwiper {
+.card-content {
   width: 90%;
-  height: auto;
-
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: grab;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 .swiper-card {
   box-sizing: border-box;
@@ -105,18 +100,27 @@
   align-items: center;
   flex-direction: column;
 }
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: grab;
+}
 .swiper-card-image {
   height: 70%;
   width: auto;
+  padding: 30px 0px;
   display: flex;
   justify-content: center;
-  padding: 30px 0px;
 }
 .swiper-card-image img {
   border-radius: 8px;
-  height: 100%;
+  height: 90%;
   width: 90%;
-
   object-fit: cover;
 }
 .swiper-card-description {
