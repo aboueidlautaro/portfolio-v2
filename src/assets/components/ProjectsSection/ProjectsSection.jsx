@@ -13,13 +13,11 @@ function ProjectsSection() {
       <article className="projects-container-cards">
         {results.results.map((item) => {
           return (
-            <>
-              <div id="blur2" className="card" key={item.id}>
-                <div className="card-image">
-                  <img src={item.image} alt={item.title} />
-                </div>
+            <div id="blur2" className="card" key={item.id}>
+              <div className="card-image">
+                <img src={item.image} alt={item.title} />
               </div>
-            </>
+            </div>
           );
         })}
       </article>
