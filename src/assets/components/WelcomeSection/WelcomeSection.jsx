@@ -2,7 +2,7 @@ import React from "react";
 import AnimatedMouse from "../AnimatedMouse/AnimatedMouse";
 import SplineCake from "../SplineCake/SplineCake";
 import "./WelcomeSection.css";
-import curriculum from "../../static/Curriculum-Aboueid-Lautaro.pdf";
+import curriculum from "../../static/CV-Lautaro-Aboueid.pdf";
 
 function WelcomeSection() {
   return (
